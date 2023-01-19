@@ -1,0 +1,12 @@
+/*Arquivo responsável por toda a estilização do componente BarraDeNavegacao*/
+/*Para o componente BarraDeNavegacao está sendo definido uma cor de fundo preta (rgba (0, 0, 0, 0.3), uma margem interna de 8px, com a cor de fonte branca, espessura
+de fonte bold, largura de 70% da largura da viewport, alinhamento de texto do tipo central e margem de cima e de baixo com 8px*/
+.barraDeNavegacao {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    width: 70vw;
+    text-align: center;
+    margin: 8px 0;
+}

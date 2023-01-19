@@ -1,0 +1,75 @@
+/* Neste arquivo são listados os estilos globais da aplicação. Caso exista a necessidade de se aplicar um estilo à algum item específico,
+ deverá ser criada uma nova classe para este elemento e posteriormente estilizá-lo em um novo arquivo css. */
+html {
+    /*Estilo aplicado a toda tag html*/
+    box-sizing: border-box;
+    /* tamanho dos elementos definirão o tamanho do container html.*/
+    font-size: 16px;
+    /*tamanho das fontes dentro do container*/
+}
+
+html,
+body {
+    /*Estilo aplicado sobre o html e o body*/
+    height: 100%;
+    /*Altura fixa de 100% da altura da tela.*/
+    min-height: 100vh;
+    /*Altura mínima do body ajustado para 100 da altura da viewport */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    /*Aqui o tamanho dos conntaineres internos são definido de acordo com os das caracteristicas dos conteineres
+    pai.*/
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    /*Para os demais elementos são ajustados margem 0 e margem interna 0 com espessura de fonte normal.*/
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+/*Para listas ordenadas e não ordenadas são definidas para não seus itens serem sem marcadores.*/
+ol,
+ul {
+    list-style: none;
+}
+
+/*Para as imagens são definidas a largura máxima com 100% da imagem e ajuste de autura automática.*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Para o componente App é definida a familia de fonte sans-serif, com cor de fundo #0079bf, altura de 100% da altura de viewport, fonte de cor branca, largura máxima
+de 100% da largura da viewport, display flexivel com eixo principal ajusatado para eixo horizontal, margem interna de 15vw em cima e em baixo, altura de 100% da altura
+do viewport, alinhamento no eixo transversal para inicio do flex-start, alinhamento no eixo principal ajustado em espaço entre e quebra de linha ativada.*/
+.App {
+    font-family: sans-serif;
+    background-color: #0079bf;
+    color: white;
+    width: 100vw;
+    display: flex;
+    padding: 0 15vw;
+    height: 100vh;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*Para o componente container dentro do componente da classe App é definida uma crescimento no eixo principal, flex de 0.3.*/
+.App .container {
+    flex-grow: 0.3;
+}

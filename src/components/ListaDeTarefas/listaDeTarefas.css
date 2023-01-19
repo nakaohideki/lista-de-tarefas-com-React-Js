@@ -1,0 +1,62 @@
+/*Arquivo responsável por toda a estilização do componente TaskList*/
+/*Estilização dos objetos que possuem a classe ListaDeTarefas com a margem interna para o seu conteúdo em 8 px, a cor de fundo para #5797b9 e raio da borda de 2px*/
+.listaDeTarefas {
+    padding: 8px;
+    background-color: #5797b9;
+    border-radius: 2px;
+}
+
+/*Estilização dos objetos que possuem a classe title dentro da classe listaDeTarefas com a margem interna para o seu conteúdo em 4 px, espessura da fonte como bold, a cor
+de fundo para rgba(0,0,0,0.1), alinhamento de texto para central e margem de baixo de 8px.*/
+.listaDeTarefas .titulo {
+    padding: 4px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/*Estilização dos objetos que possuem a classe content dentro da classe listaDeTarefas com a margem interna acima e abaixo em 16 px e esquerda e direita em 4px, display 
+ajustado para eixo flexível e direção do eixo principal para o eixo vertical (eixo da coluna)*/
+.listaDeTarefas .conteudo {
+    padding: 16px, 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilização dos objetos que possuem a classe vazio dentro da classe content e listaDeTarefas alinhamento de texto como central, borda de espessura 1px, pontilhada
+na cor branca, com raio de borda de 4px e margens internas de 4px.*/
+.listaDeTarefas .conteudo .vazio {
+    text-align: center;
+    border: 1px dashed white;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/*Estilização dos objetos que possuem a classe botao dentro de listaDeTarefas com margem de cima de 8px, margens internas de 8px, display flexivel, alinhamento 
+horizontal como central, fundo inicial vazio, sem bordas, com raios de canto de 3px, cor de fonte branca, fundo na cor #00b8d4 e transição para cor de fundo em 
+300ms.*/
+.listaDeTarefas .botao {
+    margin-top: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    background: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: #00b8d4;
+    transition: background-color 0.3s;
+}
+
+/*Estilização do botão inserindo uma animação quando o mouse estiver sobre ele, estilizando a cor de fundo para #0091a8 e curso ponteiro.*/
+.listaDeTarefas .botao:hover {
+    background-color: #0091a8;
+    cursor: pointer;
+}
+
+/*Estilização do icone do botão com a largura da imagem em 15px e de altura em 15px com margem direita de 4px.*/
+.listaDeTarefas .botao img {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+}

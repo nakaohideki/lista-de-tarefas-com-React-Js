@@ -1,0 +1,30 @@
+/*Arquivo responsável pela estilização do componente Tarefa*/
+/*Para este componente foi definido uma cor de fundo #fff, raio da borda de 3px, sombra do container de 1px na cor rgba(9, 30, 66, 0.25, cursor sobre o container 
+como ponteiro, margem de baixo de 8px, largura de 100% da largura do viewport, margem interna direita e esquerda de 8px e de 4px para cima e para baixo, cor de 
+fonte #222 e tamanho de fonte 14px*/
+.tarefa {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+    cursor: pointer;
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px 4px;
+    color: #222;
+    font-size: 14px;
+}
+
+/*Para o elemento de entrada e edição de tarefas foi definido um estilo sem bordas, com tamanho de fonte 14px, display em bloco e largura de 100% do conteiner pai.*/
+.tarefa input[type='text'] {
+    border: none;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+/*Para o elemento select foi definido um estilo com display em bloco, largura de 100% do conteiner pai e margem de cima de 8px.*/
+.tarefa select {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+}
