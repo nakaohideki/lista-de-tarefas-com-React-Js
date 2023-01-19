@@ -1,1 +1,1 @@
-Link para o projeto [aqui](https://lista-de-tarefas-com-react-js.netlify.app target={_blank})
+Link para o projeto [aqui target={_blank}](https://lista-de-tarefas-com-react-js.netlify.app)
