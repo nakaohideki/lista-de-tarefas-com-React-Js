@@ -96,6 +96,8 @@ export default function App() {
 						estado='Concluídas'
 					/>
 				</div>
+				{/* Créditos do desenvolvedor. */}
+				<span className='creditos'>Performed by Hideki Nakao</span>
 			</div>
 		</>
 	)

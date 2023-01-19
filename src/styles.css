@@ -73,3 +73,12 @@ do viewport, alinhamento no eixo transversal para inicio do flex-start, alinhame
 .App .container {
     flex-grow: 0.3;
 }
+
+/* Estilização dos créditos */
+.creditos {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: sans-serif;
+    font-size: 10px;
+}
